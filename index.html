@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Religadora TAVRIDA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+</head>
+
+<body onload="exibirDataHora()">
+    <main>
+        <div class="container">
+            <section class="menu-superior">
+                <div class="malf">
+                    <div class="info">
+                        <p>Falha</p>
+                        <p>Atenção</p>
+                    </div>
+                    <div class="leds">
+                        <div class="led-falha"></div>
+                        <div class="led-atencao"></div>
+                    </div>
+                    <div class="button-center">
+                        <button class="button">MALF LOG</button>
+                    </div>
+
+                </div>
+
+                <div class="eventLog">
+                    <div class="info">
+                        <p>Bloquado</p>
+                        <p>Prot. Ativa</p>
+                    </div>
+                    <div class="leds">
+                        <div class="led-bloqueado"></div>
+                        <div class="led-protAtiva"></div>
+                    </div>
+                    <div class="button-center">
+                        <button class="button">EVENT LOG</button>
+                    </div>
+                </div>
+
+                <div class="mode">
+                    <div class="info">
+                        <p>Local</p>
+                        <p>Remoto</p>
+                    </div>
+                    <div class="leds">
+                        <div class="led-local"></div>
+                        <div class="led-remoto"></div>
+                    </div>
+                    <div class="button-center">
+                        <button class="button">MODE</button>
+                    </div>
+                </div>
+
+                <div class="fechado">
+                    <div class="info">
+                        <p>Fechado</p>
+                    </div>
+                    <div class="leds">
+                        <div class="led-fechado"></div>
+                    </div>
+                    <div class="button-center">
+                        <button class="button"></button>
+                    </div>
+                </div>
+
+                <div class="aberto">
+                    <div class="info">
+                        <p>Aberto</p>
+                    </div>
+                    <div class="leds">
+                        <div class="led-aberto"></div>
+                    </div>
+                    <div class="button-center">
+                        <button class="button"></button>
+                    </div>
+                </div>
+
+            </section>
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="display-center">
+                <div class="display">
+                    <div class="info-logo">
+                        <p>ZEZ</p>
+                        <p>ME</p>
+                        <p>Indicação</p>
+                    </div>
+                    <div class="linha-display"></div>
+                    <div class="text-display">
+                        <p>Currents and voltages</p>
+                        <p>Powers and energies</p>
+                        <p>Harmonios</p>
+                    </div>
+                    <div class="linha-display2"></div>
+
+                    <div class="data">
+                        <span id="data"></span>
+                        <span id="hora"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="linha2"></div>
+
+
+
+
+        </div>
+
+
+    </main>
+</body>
+
+</html>
