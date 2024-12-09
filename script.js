@@ -17,3 +17,11 @@ function exibirDataHora () {
     document.getElementById("data").textContent = dataFormatada;
     document.getElementById("hora").textContent = horaFormatada;
 }
+
+//baixar arquivo
+document.getElementById("downloadBtn").addEventListener("click", () => {
+    const link = document.createElement("a");
+    link.href = "files/tavrida.pdf";  // Substitua pelo caminho do seu arquivo
+    link.download = "manual-tavrida.pdf";  // Nome do arquivo baixado
+    link.click();
+});

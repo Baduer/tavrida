@@ -13,27 +13,78 @@ main {
     display: block;
     justify-content: center;
     border: 2px solid;
-    width:750px;
-    border-radius: 25px;
+    width:650px;
+    height: 850px;
+    border-radius: 8px;
     background-color: #aea6ae;
 }
 .menu-superior {
-    display: flex;
-    justify-content: center;  
+    display: flex;   
     margin-top: 40px;
-    gap: 50px; 
     background-color: #aea6ae;     
+}
+
+.button-malf,
+.button-event,
+.button-mode {
+    margin: 8px 40px 0;
+}
+
+.button-fechado {
+    margin: 8px 10px 0;
+}
+
+.button-aberto {
+    margin: 8px -40px 0;
+}
+
+.left {    
+    width: 250px;
+    height: 300px;    
+}
+
+.info-malf {
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.info-event {
+    display: flex;
+    width: 150px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.info-mode {
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.info-fechado {
+    width: 60px;
+    margin-left: 10px;    
 }
 
 .info {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+}
+
+.fechado {
+    width: 130px;
+}
+
+.info-aberto {
+    margin-right: 50px;    
 }
 
 .leds {
     display: flex;
-    margin-bottom: 10px;
-    margin-top: 2px;
+    justify-content: start;
+    width: 150px;
+    margin-right: px;
 }
 
 .led-falha {
@@ -72,7 +123,7 @@ main {
     background-color: green;
     width: 5px;
     height: 5px;
-    margin-left: 28px;
+    margin: 0 10px 0;
     border-radius: 50%;    
 }
 
@@ -113,15 +164,14 @@ main {
 }
 
 .button-center {
-    display: flex;
-    align-items: start;  
-     
-    margin-top: 20px;
+    display: flex;    
+    align-items: center;  
+    width: 230px;
+    margin: 5px 0 10px;
 }
 
 .button-center p {
     margin-left: 10px;
-    margin-right: 10px;
 }
 
 .linha1 {
@@ -178,6 +228,131 @@ main {
     justify-content: center;
     gap: 20px;
 }
+
+.container-button {
+    display: flex;
+}
+
+.text {
+    margin-bottom: 4px;
+}
+
+.right {
+    width: 300px;
+    height: 300px;    
+}
+
+.container-comando {
+    margin: 10px 90px;
+}
+
+.text p {
+    width: 1500px;
+}
+
+.line-hr {
+    margin: auto;
+    width: 40px;
+}
+
+.brilhoBtn {
+    display: flex;
+    margin: auto;    
+    width: 30px;
+    height: 30px;
+}
+
+.usb-img {
+    width: 50px;
+    height: 60px;
+}
+
+.usbBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.manual-usb {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.leds-right  {
+    display: flex;
+    margin: 4px 115px;
+}
+
+.info-right {
+    display: flex;
+    gap: 20px;
+    margin-left: 90px;
+}
+
+.info-right-number {
+    display: flex;
+    gap: 5px;
+    margin-left: 123px;
+}
+
+.leds-right-number {
+    display: flex;
+}
+
+.led-1,
+.led-2,
+.led-3,
+.led-4 {
+    display: flex;
+    gap: 5px;
+    margin-left: 8px;   
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 20px;
+    
+    
+}
+
+.led-1 {
+    margin: 0 0 5px 125px;
+   
+}
+
+.button-right {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px; 
+       
+}
+
+.button-right-esc, 
+.button-right-enter {
+    margin: 20px 121px;     
+}
+
+.button-right-ar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.button-right-hl {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 41px;
+}
+
+.button-right-grp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 77px;
+}
+
 
 
 

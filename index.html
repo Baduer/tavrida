@@ -14,7 +14,7 @@
         <div class="container">
             <section class="menu-superior">
                 <div class="malf">
-                    <div class="info">
+                    <div class="info-malf">
                         <p>Falha</p>
                         <p>Atenção</p>
                     </div>
@@ -22,14 +22,14 @@
                         <div class="led-falha"></div>
                         <div class="led-atencao"></div>
                     </div>
-                    <div class="button-center">
+                    <div class="button-malf">
                         <button class="button">MALF LOG</button>
                     </div>
 
                 </div>
 
                 <div class="eventLog">
-                    <div class="info">
+                    <div class="info-event">
                         <p>Bloquado</p>
                         <p>Prot. Ativa</p>
                     </div>
@@ -37,13 +37,13 @@
                         <div class="led-bloqueado"></div>
                         <div class="led-protAtiva"></div>
                     </div>
-                    <div class="button-center">
+                    <div class="button-event">
                         <button class="button">EVENT LOG</button>
                     </div>
                 </div>
 
                 <div class="mode">
-                    <div class="info">
+                    <div class="info-mode">
                         <p>Local</p>
                         <p>Remoto</p>
                     </div>
@@ -51,31 +51,31 @@
                         <div class="led-local"></div>
                         <div class="led-remoto"></div>
                     </div>
-                    <div class="button-center">
+                    <div class="button-mode">
                         <button class="button">MODE</button>
                     </div>
                 </div>
 
                 <div class="fechado">
-                    <div class="info">
+                    <div class="info-fechado">
                         <p>Fechado</p>
                     </div>
                     <div class="leds">
                         <div class="led-fechado"></div>
                     </div>
-                    <div class="button-center">
+                    <div class="button-fechado">
                         <button class="button"></button>
                     </div>
                 </div>
 
                 <div class="aberto">
-                    <div class="info">
+                    <div class="info-aberto">
                         <p>Aberto</p>
                     </div>
                     <div class="leds">
                         <div class="led-aberto"></div>
                     </div>
-                    <div class="button-center">
+                    <div class="button-aberto">
                         <button class="button"></button>
                     </div>
                 </div>
@@ -104,10 +104,165 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="container-button">
 
-            <div class="linha2"></div>
+                <div class="left">
+                    <div class="container-comando">
+                        <div class="button-left">
+                            <div class="text">
+                                <p>Pressione para Testar</p>
+                            </div>
+                            <button class="button">ON
+                                <hr class="line-hr">OFF
+                            </button>
+                        </div>
 
+                        <div class="button-left">
+                            <div class="text">
+                                <p>Ajuste de Brilho</p>
+                            </div>
+                            <button class="button"><img src="img/brilho_png.png" alt="brilho"
+                                    class="brilhoBtn"></button>
+                        </div>
 
+                        <div class="mode">
+                            <div class="info">
+                                <p>Local</p>
+                                <p>Remoto</p>
+                            </div>
+                            <div class="leds">
+                                <div class="led-local"></div>
+                                <div class="led-remoto"></div>
+                            </div>
+                            <div class="button-center">
+                                <button class="button">PROT</button>
+                                <p>Proteção</p>
+                            </div>
+
+                        </div>
+
+                        <div class="mode">
+                            <div class="info">
+                                <p>Local</p>
+                                <p>Remoto</p>
+                            </div>
+                            <div class="leds">
+                                <div class="led-local"></div>
+                                <div class="led-remoto"></div>
+                            </div>
+                            <div class="button-center">
+                                <button class="button">EF</button>
+                                <p>Falta á Terra</p>
+                            </div>
+                        </div>
+
+                        <div class="mode">
+                            <div class="info">
+                                <p>Local</p>
+                                <p>Remoto</p>
+                            </div>
+                            <div class="leds">
+                                <div class="led-local"></div>
+                                <div class="led-remoto"></div>
+                            </div>
+                            <div class="button-center">
+                                <button class="button">SEF</button>
+                                <p>Falta sensivel á terra</p>
+                            </div>
+                        </div>
+                        <div class="manual-usb">
+                            <p>USB - Manual</p>
+                            <button class="usbBtn" id="downloadBtn"><img src="img/USB_png.png" class="usb-img"
+                                    alt="USB"></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="center">
+                    <img src="/img/button_center_png.png" alt="botão menu">
+                </div>
+
+                <div class="right">
+                    <div class="button-right-esc">
+                        <button class="button">ESC</button>
+                    </div>
+
+                    <div class="button-right-enter">
+                        <button class="button">ENTER</button>
+                    </div>
+
+                    <div class="mode-right">
+                        <div class="info-right">
+                            <p>Ligado</p>
+                            <p>Desligado</p>
+                        </div>
+                        <div class="leds-right">
+                            <div class="led-local"></div>
+                            <div class="led-remoto"></div>
+                        </div>
+                        <div class="button-right-ar">
+                            <p>Religamento</p>
+                            <button class="button">AR</button>
+                        </div>
+
+                    </div>
+
+                    <div class="mode-right">
+                        <div class="info-right">
+                            <p>Ligado</p>
+                            <p>Desligado</p>
+                        </div>
+                        <div class="leds-right">
+                            <div class="led-local"></div>
+                            <div class="led-remoto"></div>
+                        </div>
+                        <div class="button-right-hl">
+                            <p>Linha Viva</p>
+                            <button class="button">HL</button>
+                        </div>
+
+                    </div>
+
+                    <div class="mode-right">
+                        <div class="info-right">
+                            <p>Ligado</p>
+                            <p>Desligado</p>
+                        </div>
+                        <div class="leds-right">
+                            <div class="led-local"></div>
+                            <div class="led-remoto"></div>
+                        </div>
+                        <div class="button-right">
+                            <div class="abr">
+                                <p>Retroalimentação</p>
+                                <p>Automática</p>
+                            </div>
+                            <button class="button">ABR</button>
+                        </div>
+                    </div>
+
+                    <div class="mode-right">
+                        <div class="info-right-number">
+                            <p>1</p>
+                            <p>2</p>
+                            <p>3</p>
+                            <p>4</p>
+                        </div>
+                        <div class="leds-right-number">
+                            <div class="led-1"></div>
+                            <div class="led-2"></div>
+                            <div class="led-3"></div>
+                            <div class="led-4"></div>
+                        </div>
+                        <div class="button-right-grp">
+                            <p>Ativo</p>
+                            <button class="button">GRP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
